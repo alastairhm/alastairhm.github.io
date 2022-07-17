@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linux on 0x32++</title><link>https://blog.0x32.co.uk/tags/linux/</link><description>Recent content in linux on 0x32++</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 07 Jul 2022 13:54:22 +0100</lastBuildDate><atom:link href="https://blog.0x32.co.uk/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Quick Tip : Installing Ruby 2.7 and Node 12 on RH8</title><link>https://blog.0x32.co.uk/posts/rubynoderh/</link><pubDate>Thu, 07 Jul 2022 13:54:22 +0100</pubDate><guid>https://blog.0x32.co.uk/posts/rubynoderh/</guid><description>Installing Ruby and Node on Redhat 8 Quick tip on how to install Ruby 2.7 and Nodejs 12 on Redhat 8, as it can default to older versions.
+# Enable new versions dnf -y module reset ruby nodejs dnf -y module enable ruby:2.7 nodejs:12 # Install dnf install nodejs ruby # Check installed versions ruby --version node --version npm --version</description></item><item><title>Puppy linux 9.5</title><link>https://blog.0x32.co.uk/posts/puppylinux/</link><pubDate>Fri, 25 Sep 2020 10:07:14 +0100</pubDate><guid>https://blog.0x32.co.uk/posts/puppylinux/</guid><description>Puppy Linux 9.5 One of my favorite low foot print Linux installs is Puppy Linux been using it on and off for years.
+It has saved my bacon on a few times used to boot and restore or save data from a dead OS install.
+New version looks good so far.</description></item><item><title>Which Shell?</title><link>https://blog.0x32.co.uk/posts/shell/</link><pubDate>Thu, 27 Aug 2020 08:13:08 +0100</pubDate><guid>https://blog.0x32.co.uk/posts/shell/</guid><description>I made the switch from Bash shell to the FISH shell a couple of years ago now and never looked back.
+Customization and auto-complete features was the killer features for me.
+Jump to the 20 minute mark for the shell discussion if you want.
+Video Source Destination Linux
+Links friendly interactive shell
+ZSH
+BASH
+FISH vs ZSH</description></item></channel></rss>
