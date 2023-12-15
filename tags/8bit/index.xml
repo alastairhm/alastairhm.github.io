@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>8bit on 0x32++</title><link>https://blog.0x32.co.uk/tags/8bit/</link><description>Recent content in 8bit on 0x32++</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 19 Jan 2022 13:48:47 +0000</lastBuildDate><atom:link href="https://blog.0x32.co.uk/tags/8bit/index.xml" rel="self" type="application/rss+xml"/><item><title>BBC Twitter Bot Fun</title><link>https://blog.0x32.co.uk/posts/bbcbot/</link><pubDate>Wed, 19 Jan 2022 13:48:47 +0000</pubDate><guid>https://blog.0x32.co.uk/posts/bbcbot/</guid><description>More fun playing with BBC Twitter Bot.
+Source: https://t.co/ks0jhudxdM pic.twitter.com/7AHXAV6oud
+&amp;mdash; @bbcmicrobot@mastodon.me.uk (@bbcmicrobot) January 19, 2022 Source: https://t.co/xBabCMPWCX pic.twitter.com/R2wifhK7I7
+&amp;mdash; @bbcmicrobot@mastodon.me.uk (@bbcmicrobot) January 19, 2022 Source: https://t.co/jVpUMLBa8D pic.twitter.com/W9AozQlY0y
+&amp;mdash; @bbcmicrobot@mastodon.me.uk (@bbcmicrobot) January 19, 2022 Source: https://t.co/Rt3DOf1FOh pic.twitter.com/KUK7hiq7if
+&amp;mdash; @bbcmicrobot@mastodon.me.uk (@bbcmicrobot) January 19, 2022</description></item><item><title>Beebasm Mac Catalina</title><link>https://blog.0x32.co.uk/posts/beebasm/</link><pubDate>Thu, 14 Jan 2021 16:50:36 +0000</pubDate><guid>https://blog.0x32.co.uk/posts/beebasm/</guid><description>Got a new Mac with Catalina pre-installed, so had to compile my own version of Beebasm for the 64 bit OS.
+BeebAsm.zip</description></item><item><title>10 PRINT6502</title><link>https://blog.0x32.co.uk/posts/10print6502/</link><pubDate>Fri, 11 Dec 2020 15:15:26 +0000</pubDate><guid>https://blog.0x32.co.uk/posts/10print6502/</guid><description>BBC Micro machine code take on C64 10 Print one line random pattern generator.
+Code at Github 10print.asm
+10 PRINT 6502 \ 10 PRINT \ Using BeebASM assembler \ (c) Alastair Montgomery INCLUDE &amp;#34;../lib/constants.asm&amp;#34; seed = &amp;amp;70 ORG &amp;amp;2000 .start LDA #23 STA seed LDA #63 STA seed+1 LDX #0 .char LDA chartable, X JSR oswrch INX CPX #23 BNE char .loop JSR random BMI two .one LDA #224 JMP print .</description></item><item><title>6502 Assembly Language</title><link>https://blog.0x32.co.uk/posts/6502/</link><pubDate>Thu, 26 Nov 2020 16:54:08 +0000</pubDate><guid>https://blog.0x32.co.uk/posts/6502/</guid><description>Been trying to relearn 6502 assembly language for fun, its a lot faster and easier than the first time on actual hardware when I was a teenager.
+Been using a book I picked up from eBay Discovering BBC Micro Machine Code by A.P. Stephenson
+Using BeebAsm assembler on my Mac with a BBC Micro emulator, rather than build in BBC BASIC one.
+You can find my code at Github https://github.com/alastairhm/beebasm</description></item><item><title>10 PRINT</title><link>https://blog.0x32.co.uk/posts/10print/</link><pubDate>Fri, 04 Sep 2020 16:08:20 +0100</pubDate><guid>https://blog.0x32.co.uk/posts/10print/</guid><description>BBC Micro take on C64 10 Print one line random pattern generator.
+10 MODE 0 20 N=RND(1):IF N &amp;gt; 0.5 THEN PRINT &amp;#34;/&amp;#34;; ELSE PRINT &amp;#34;\&amp;#34;; 30 GOTO 20 RUN pic.twitter.com/xQag2GKwx0
+&amp;mdash; @bbcmicrobot@mastodon.me.uk (@bbcmicrobot) September 4, 2020</description></item><item><title>Golden Tail and Kitsune's Curse New Retro Game</title><link>https://blog.0x32.co.uk/posts/goldentail/</link><pubDate>Wed, 26 Aug 2020 09:08:22 +0100</pubDate><guid>https://blog.0x32.co.uk/posts/goldentail/</guid><description>New retro game, looks worth getting a Amstrad CPC emulator setup to play it.
+Video Source Retro Collection
+Juan&amp;rsquo;s games: (https://www.usebox.net/jjm/)
+Buy physical copies of these games:
+Golden Tail
+Kitsune Curse</description></item><item><title>Mree</title><link>https://blog.0x32.co.uk/posts/mree/</link><pubDate>Wed, 19 Aug 2020 13:51:27 +0100</pubDate><guid>https://blog.0x32.co.uk/posts/mree/</guid><description>Mr. Ee from Micro Power for the BBC Micro nice variation on the Pacman theme.
+Play Online at BBC Mirco</description></item><item><title>Acorn Electron Sound Mod</title><link>https://blog.0x32.co.uk/posts/acornmod/</link><pubDate>Wed, 19 Aug 2020 08:31:48 +0100</pubDate><guid>https://blog.0x32.co.uk/posts/acornmod/</guid><description>Interest video about modding the Acorn Electron.</description></item><item><title>The Pit New Retro Game</title><link>https://blog.0x32.co.uk/posts/thepit/</link><pubDate>Thu, 13 Aug 2020 09:08:22 +0100</pubDate><guid>https://blog.0x32.co.uk/posts/thepit/</guid><description>New retro game, looks worth getting a Commodore emulator setup to play it.
+This style of game is one of my favorites, loved Boulder Dash and Repton.
+Video Source Retro Collection
+The Pit Download
+Play Online</description></item><item><title>Retro Gaming Commando</title><link>https://blog.0x32.co.uk/posts/commando/</link><pubDate>Wed, 12 Aug 2020 08:57:44 +0100</pubDate><guid>https://blog.0x32.co.uk/posts/commando/</guid><description>One of the games I loved playing in my youth on my BBC Micro, I&amp;rsquo;m still rubbish at it to this day.
+Links Play Online at BBC Mirco
+Game FAQs</description></item></channel></rss>

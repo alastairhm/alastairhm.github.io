@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>shell on 0x32++</title><link>https://blog.0x32.co.uk/tags/shell/</link><description>Recent content in shell on 0x32++</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2020 08:13:08 +0100</lastBuildDate><atom:link href="https://blog.0x32.co.uk/tags/shell/index.xml" rel="self" type="application/rss+xml"/><item><title>Which Shell?</title><link>https://blog.0x32.co.uk/posts/shell/</link><pubDate>Thu, 27 Aug 2020 08:13:08 +0100</pubDate><guid>https://blog.0x32.co.uk/posts/shell/</guid><description>I made the switch from Bash shell to the FISH shell a couple of years ago now and never looked back.
+Customization and auto-complete features was the killer features for me.
+Jump to the 20 minute mark for the shell discussion if you want.
+Video Source Destination Linux
+Links friendly interactive shell
+ZSH
+BASH
+FISH vs ZSH</description></item></channel></rss>
