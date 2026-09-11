@@ -1,0 +1,336 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><title>0x32++</title><meta name=viewport content="width=device-width,minimum-scale=1"><meta name=description content="Views from the wrong side of 0x32"><meta name=generator content="Hugo 0.165.0"><meta name=robots content="index, follow"><link rel=stylesheet href=/ananke/css/main.edd39b8c7582813dfd487b95d5e89e01168588c9839030ee8ca95425d0c2ff50.css integrity="sha256-7dObjHWCgT39SHuV1eieARaFiMmDkDDujKlUJdDC/1A=" crossorigin=anonymous><script>(function(){"use strict";function t(){for(var t=document.querySelectorAll(".code-block .code-copy[hidden]"),e=0;e<t.length;e++)t[e].hidden=!1}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",t):t();function e(e){var t=e.querySelector(".code-copy-label"),n=t?t.textContent:null;e.classList.add("is-copied"),t&&(t.textContent="Copied"),window.setTimeout(function(){e.classList.remove("is-copied"),t&&n!==null&&(t.textContent=n)},2e3)}function n(e){var n,t=document.createElement("textarea");t.value=e,t.setAttribute("readonly",""),t.style.position="absolute",t.style.left="-9999px",document.body.appendChild(t),t.select(),n=!1;try{n=document.execCommand("copy")}catch{n=!1}return document.body.removeChild(t),n}function s(t){var s,o,a,i=t.closest(".code-block");if(!i)return;if(s=i.querySelector("pre"),!s)return;a=s.querySelector("code")||s,o=a.innerText,navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(o).then(function(){e(t)},function(){n(o)&&e(t)}):n(o)&&e(t)}document.addEventListener("click",function(e){var t=e.target.closest(".code-copy");t&&s(t)})})()</script><link rel="shortcut icon" href=/favicon.ico type=image/x-icon><link href=/categories/geek/index.xml rel=alternate type=application/rss+xml title=0x32++><link href=/categories/geek/index.xml rel=feed type=application/rss+xml title=0x32++><link rel=canonical href=https://blog.0x32.co.uk/categories/geek/><meta property="og:url" content="https://blog.0x32.co.uk/categories/geek/"><meta property="og:site_name" content="0x32++"><meta property="og:title" content="Geek"><meta property="og:description" content="Views from the wrong side of 0x32"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta itemprop=name content="Geek"><meta itemprop=description content="Views from the wrong side of 0x32"><meta itemprop=datePublished content="2024-11-22T10:23:44+00:00"><meta itemprop=dateModified content="2024-11-22T10:23:44+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Geek"><meta name=twitter:description content="Views from the wrong side of 0x32"><script data-goatcounter=https://0x32.goatcounter.com/count async src=//gc.zgo.at/count.js></script></head><body class="ma0 avenir bg-near-white production is-term"><header><div class="pb3-m pb6-l bg-black"><nav class="pv3 ph3 ph4-ns" role=navigation><div class="flex-l center items-center justify-between"><a href=/ class="f3 fw2 hover-white white-90 dib no-underline"><img src=/logo.png class="w100 mw5-ns" alt=0x32++></a><div class="flex-l items-center"><ul class="pl0 mr3"><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white white-90 no-underline" href=/archive/ title="Archive page">Archive</a></li><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white white-90 no-underline" href=/posts/ title="Articles page">Articles</a></li><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white white-90 no-underline" href=/links/ title="Links page">Links</a></li></ul><div class=ananke-socials><a href=https://bsky.app/profile/alastair-hm.bsky.social target=_blank rel=noopener class="ananke-social-link link-transition bluesky link dib z-999 pt3 pt0-l mr1" title="follow on Bluesky - Opens in a new window" aria-label="follow on Bluesky - Opens in a new window"><span class=icon><svg role="img" viewBox="0 0 24 24"><title>Bluesky</title><path d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037-.856 3.061-3.978 3.842-6.755 3.37 4.854.826 6.089 3.562 3.422 6.299-5.065 5.196-7.28-1.304-7.847-2.97-.104-.305-.152-.448-.153-.327.0-.121-.05.022-.153.327-.568 1.666-2.782 8.166-7.847 2.97-2.667-2.737-1.432-5.473 3.422-6.3-2.777.473-5.899-.308-6.755-3.369C.42 10.04.0 4.615.0 3.883.0.213 3.217 1.366 5.202 2.857"/></svg>
+</span></a><a href=https://www.instagram.com/alastair_hm/ target=_blank rel=noopener class="ananke-social-link link-transition instagram link dib z-999 pt3 pt0-l mr1" title="follow on Instagram - Opens in a new window" aria-label="follow on Instagram - Opens in a new window"><span class=icon><svg role="img" viewBox="0 0 24 24"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465s-.264-2.1487-.5633-2.9117c-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079s-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44.0 1018.39 4.144a1.44 1.44.0 00-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 114.008 3.9921A3.9996 3.9996.0 018 12.0077"/></svg>
+</span></a><a href=https://github.com/alastairhm/ target=_blank rel=noopener class="ananke-social-link link-transition github link dib z-999 pt3 pt0-l mr1" title="follow on GitHub - Opens in a new window" aria-label="follow on GitHub - Opens in a new window"><span class=icon><svg role="img" viewBox="0 0 24 24"><title>GitHub</title><path d="M12 .297c-6.63.0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577.0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93.0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176.0.0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22.0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22.0 1.606-.015 2.896-.015 3.286.0.315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+</span></a><a href=https://mastodon.social/@alastair_hm target=_blank rel=noopener class="ananke-social-link link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="follow on Mastodon - Opens in a new window" aria-label="follow on Mastodon - Opens in a new window"><span class=icon><svg role="img" viewBox="0 0 24 24"><title>Mastodon</title><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792.0 11.813.0h-.03c-3.98.0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057.0 00.023-.043v-1.809a.052.052.0 00-.02-.041.053.053.0 00-.046-.01 20.282 20.282.0 01-4.709.545c-2.73.0-3.463-1.284-3.674-1.818a5.593 5.593.0 01-.319-1.433.053.053.0 01.066-.054c1.517.363 3.072.546 4.632.546.376.0.75.0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23.0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112.0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311.0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13.0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg>
+</span></a><a href=https://blog.0x32.co.uk/index.xml target=_blank rel=noopener class="ananke-social-link link-transition rss link dib z-999 pt3 pt0-l mr1" title="follow on RSS - Opens in a new window" aria-label="follow on RSS - Opens in a new window"><span class=icon><svg role="img" viewBox="0 0 24 24"><title>RSS</title><path d="M19.199 24C19.199 13.467 10.533 4.8.0 4.8V0c13.165.0 24 10.835 24 24h-4.801zM3.291 17.415c1.814.0 3.293 1.479 3.293 3.295.0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526.0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727.0 15.909 7.184 15.909 15.91z"/></svg></span></a></div></div></div></nav><div class="tc-l pv3 ph3 ph4-ns"><h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">Geek</h1></div></div></header><main class=pb7 role=main><article class="pa3 pa4-ns nested-copy-line-height"><section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray"></section><section class="flex-ns mt5 flex-wrap justify-around"><div class="w-100 w-30-l mb4 relative bg-white"><div class="w-100 mb4 nested-copy-line-height relative bg-white"><div class="mb3 pa4 gray overflow-hidden bg-white"><span class="f6 db">Articles</span>
+<time class="f6 db" datetime=2015-01-29T12:47:00Z>January 29, 2015</time><h1 class="f3 near-black"><a href=/posts/arduino-lcd-matrix-3x5-numeric-font-test/ class="link black dim">Arduino LCD Matrix 3x5 Numeric Font Test</a></h1><div class="nested-links f5 lh-copy nested-copy-line-height"><div dir=ltr style=text-align:left trbidi=on>Minimal 3x5 numeric font on a LCD Matrix for Arduino Nano.<br><br><iframe width=560 height=315 src=https://www.youtube.com/embed/-U3vCb16cW8 frameborder=0 allowfullscreen></iframe><br><br><iframe allowtransparency=true frameborder=0 src=https://codebender.cc/embed/sketch:78905 style="height:510px;margin:10px 0;width:100%"></iframe><p><a href=http://meekgonkey.blogspot.com/>Doodle&rsquo;s Geek Monkey</a> by <a href=http://twitter.com/alastair_hm>Alastair Montgomery</a></div></p></div><a href=/posts/arduino-lcd-matrix-3x5-numeric-font-test/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a></div></div></div><div class="w-100 w-30-l mb4 relative bg-white"><div class="w-100 mb4 nested-copy-line-height relative bg-white"><div class="mb3 pa4 gray overflow-hidden bg-white"><span class="f6 db">Articles</span>
+<time class="f6 db" datetime=2015-01-28T08:42:00Z>January 28, 2015</time><h1 class="f3 near-black"><a href=/posts/led-matrix-arduino-nano/ class="link black dim">LED Matrix Arduino Nano</a></h1><div class="nested-links f5 lh-copy nested-copy-line-height"><div dir=ltr style=text-align:left trbidi=on><iframe allowfullscreen frameborder=0 height=270 src=https://www.youtube.com/embed/IYBRyIQGTh0 width=480></iframe><br><br><br><br><br><br>Testing a LCD Max7219 Matrix with an Arduino Nano, thank to&nbsp;<a href=http://tronixstuff.com/2013/10/11/tutorial-arduino-max7219-led-display-driver-ic/ target=_blank>http://tronixstuff.com/2013/10/11/tutorial-arduino-max7219-led-display-driver-ic/</a><br><br><br><br><pre>#include&nbsp;&lt;<span style=color:#c60>LedControl</span>.h&gt;
+<p><span style=color:#c60>LedControl</span> lc=<span style=color:#c60>LedControl</span>(12,11,10,1);
+<span style=color:#7e7e7e>// pin 12 is connected to the MAX7219 pin 1</span>
+<span style=color:#7e7e7e>// pin 11 is connected to the CLK pin 13</span>
+<span style=color:#7e7e7e>// pin 10 is connected to LOAD pin 12</span>
+<span style=color:#7e7e7e>// 1 as we are only using 1 MAX7219</span></p>
+<p><span style=color:#c60>void</span> <span style=color:#c60><b>setup</b></span>(){
+  lc.<span style=color:#c60>shutdown</span>(0,<span style=color:#c60>false</span>);
+  lc.<span style=color:#c60>setIntensity</span>(0,8);
+  lc.<span style=color:#c60>clearDisplay</span>(0);
+}</p>
+    </div>
+    <a href=/posts/led-matrix-arduino-nano/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Articles</span>
+    
+      <time class="f6 db" datetime=2014-03-26T14:08:00Z>March 26, 2014</time>
+    
+    <h1 class="f3 near-black">
+      <a href=/posts/arduino-uno-serial-message-project-at/ class="link black dim">
+        Arduino Uno Serial Message Project at Code Bender
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p><a href=https://www.flickr.com/photos/doodle_m/13426924513 title="Codebender by Alastair Montgomery, on Flickr"><img src=https://farm8.staticflickr.com/7060/13426924513_92097b40dc.jpg width=500 height=486 alt=Codebender></a></p>
+<p>Project to send scrolling messages to LCD Shield enabled Arduino Uno at Codebender.
+Codebender lets you code and program your Arduino from a browser.</p>
+<iframe style="height:510px;width:100%;margin:10px 0" allowtransparency=true src=https://codebender.cc/embed/sketch:32460 frameborder=0></iframe>
+<br>
+<a href=http://meekgonkey.blogspot.com/>Doodle's Geek Monkey</a> by <a href=http://twitter.com/alastair_hm>Alastair Montgomery</a>
+    </div>
+    <a href=/posts/arduino-uno-serial-message-project-at/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Articles</span>
+    
+      <time class="f6 db" datetime=2014-03-07T12:24:00Z>March 7, 2014</time>
+    
+    <h1 class="f3 near-black">
+      <a href=/posts/get-your-geek-on/ class="link black dim">
+        Get Your Geek On
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <div style=padding:0;overflow:hidden;margin:0;width:500px><a href=http://www.flickr.com/photos/doodle_m/3570196434/in/set-72157618860789904/ title="Dream Linux = Identity crisis" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3618/3570196434_1522d670c9_s.jpg alt="Dream Linux = Identity crisis" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3345791177/in/set-72157618860789904/ title="Many feeds to feed" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3659/3345791177_43cb519a9b_s.jpg alt="Many feeds to feed" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3347126002/in/set-72157618860789904/ title="Twitter Addiction" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3560/3347126002_573acc568b_s.jpg alt="Twitter Addiction" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3359728240/in/set-72157618860789904/ title="Python in your pocket?" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3658/3359728240_9965728876_s.jpg alt="Python in your pocket?" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3576097290/in/set-72157618860789904/ title="Photoshop CS4" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3328/3576097290_db8e16544b_s.jpg alt="Photoshop CS4" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3587827163/in/set-72157618860789904/ title="Saving data" style="display:block;padding:0 0 10px;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3384/3587827163_f7b56ce98d_s.jpg alt="Saving data" style=border:none;margin:0;padding:0;width:75px;height:75px></a><br clear=all><a href=http://www.flickr.com/photos/doodle_m/3592410260/in/set-72157618860789904/ title="My Workspace" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3329/3592410260_bbb3b20bd9_s.jpg alt="My Workspace" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3594913138/in/set-72157618860789904/ title="Opera 10 Beta" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm3.staticflickr.com/2481/3594913138_84e9ea9db5_s.jpg alt="Opera 10 Beta" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3635352342/in/set-72157618860789904/ title="Dell PowerEdge 2950" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3350/3635352342_6d100713db_s.jpg alt="Dell PowerEdge 2950" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3613583224/in/set-72157618860789904/ title=Desktop style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm3.staticflickr.com/2448/3613583224_be1b968b4e_s.jpg alt=Desktop style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3614170156/in/set-72157618860789904/ title="Fedora 11" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm3.staticflickr.com/2460/3614170156_f326e30b46_s.jpg alt="Fedora 11" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3616440410/in/set-72157618860789904/ title="Installing Windows 7" style="display:block;padding:0 0 10px;width:75px;height:75px;float:left"><img src=http://farm3.staticflickr.com/2427/3616440410_bf506b2781_s.jpg alt="Installing Windows 7" style=border:none;margin:0;padding:0;width:75px;height:75px></a><br clear=all><a href=http://www.flickr.com/photos/doodle_m/3616475686/in/set-72157618860789904/ title="Windows 7 Problems" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3661/3616475686_0188850aa5_s.jpg alt="Windows 7 Problems" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3627876425/in/set-72157618860789904/ title="Windows 7 VM Online" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3321/3627876425_e639d7a08d_s.jpg alt="Windows 7 VM Online" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3634540765/in/set-72157618860789904/ title="Tripod Invasion" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3375/3634540765_db91fc8e37_s.jpg alt="Tripod Invasion" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3635546630/in/set-72157618860789904/ title="LG SDK Test" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3661/3635546630_c3fef1d541_s.jpg alt="LG SDK Test" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3638333154/in/set-72157618860789904/ title="USB 2.0" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3628/3638333154_04a3cf0961_s.jpg alt="USB 2.0" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3678394450/in/set-72157618860789904/ title="The Secret Of Monkey Island on DosBox" style="display:block;padding:0 0 10px;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3638/3678394450_bb94f1c0f8_s.jpg alt="The Secret Of Monkey Island on DosBox" style=border:none;margin:0;padding:0;width:75px;height:75px></a><br clear=all><a href=http://www.flickr.com/photos/doodle_m/3683401401/in/set-72157618860789904/ title="Nibbo Search" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm4.staticflickr.com/3629/3683401401_78207e5ee3_s.jpg alt="Nibbo Search" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3683725225/in/set-72157618860789904/ title="Mint Linux 7" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm3.staticflickr.com/2480/3683725225_2d3aaa4c22_s.jpg alt="Mint Linux 7" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3697745906/in/set-72157618860789904/ title="Google Chrome on Mint Linux" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm3.staticflickr.com/2605/3697745906_ed5976d1e2_s.jpg alt="Google Chrome on Mint Linux" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3697745990/in/set-72157618860789904/ title="Google Chrome on Mint Linux" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm3.staticflickr.com/2498/3697745990_9387b939fb_s.jpg alt="Google Chrome on Mint Linux" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3774757316/in/set-72157618860789904/ title="Ubuntu installing Websphere 7" style="display:block;padding:0 10px 10px 0;width:75px;height:75px;float:left"><img src=http://farm3.staticflickr.com/2451/3774757316_a835007e09_s.jpg alt="Ubuntu installing Websphere 7" style=border:none;margin:0;padding:0;width:75px;height:75px></a><a href=http://www.flickr.com/photos/doodle_m/3773999485/in/set-72157618860789904/ title="ws7 installed" style="display:block;padding:0 0 10px;width:75px;height:75px;float:left"><img src=http://farm3.staticflickr.com/2674/3773999485_7697769350_s.jpg alt="ws7 installed" style=border:none;margin:0;padding:0;width:75px;height:75px></a><br clear=all></div><div style=margin-top:0;margin-bottom:5px><p><a href=http://www.flickr.com/photos/doodle_m/sets/72157618860789904/>Get Your Geek On</a>, a set on Flickr.</p>
+    </div>
+    <a href=/posts/get-your-geek-on/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Articles</span>
+    
+      <time class="f6 db" datetime=2014-03-04T16:07:00Z>March 4, 2014</time>
+    
+    <h1 class="f3 near-black">
+      <a href=/posts/distro-addiction/ class="link black dim">
+        Distro Addiction
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <div dir=ltr style=text-align:left trbidi=on>
+<div style="font-size:.8em;line-height:1.6em;margin:0 0 10px;padding:0">
+<a href=http://www.flickr.com/photos/doodle_m/12929053364/ title="Distro Addiction"><img alt="Distro Addiction by Alastair Montgomery" src=http://farm8.staticflickr.com/7378/12929053364_6ee62e6d25.jpg></a><br>
+<span style=margin:0><a href=http://www.flickr.com/photos/doodle_m/12929053364/>Distro Addiction</a>, a photo by <a href=http://www.flickr.com/photos/doodle_m/>Alastair Montgomery</a> on Flickr.</span></div>
+<i>Via Flickr:</i><br>I'm addicted to trying out new distros and different versions of Linux.<br><br>Upload from Dropbox March 04, 2014 at 02:52PM</div>
+    </div>
+    <a href=/posts/distro-addiction/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Articles</span>
+    
+      <time class="f6 db" datetime=2014-02-28T12:08:00Z>February 28, 2014</time>
+    
+    <h1 class="f3 near-black">
+      <a href=/posts/installing-ruby-rails-on-manjaro-linux/ class="link black dim">
+        Installing Ruby Rails on Manjaro Linux
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <div dir=ltr style=text-align:left trbidi=on>
+Thought I'd give Rails another go on my newly created Manjaro Linux VM.<br>
+<br>
+<div class=separator style=clear:both;text-align:center>
+<a href=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAY-9P0iuvGBpUXG9-rrKgREuzE-j2CqdrKToThQTsoovZWMp4GYUe205L03o9LH5VwJsI4zV6Hk9wY_5_ps_m3THhr2vHkWs5-fYcOgWHcBqEuv_IuvWkhVrWts656Yd3omDC6UsPylY/s1600/Manjaro+Rails.png imageanchor=1 style=margin-left:1em;margin-right:1em><img border=0 src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAY-9P0iuvGBpUXG9-rrKgREuzE-j2CqdrKToThQTsoovZWMp4GYUe205L03o9LH5VwJsI4zV6Hk9wY_5_ps_m3THhr2vHkWs5-fYcOgWHcBqEuv_IuvWkhVrWts656Yd3omDC6UsPylY/s1600/Manjaro+Rails.png height=184 width=320></a></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+After filling in a couple of required packages the above screenshot shows it firing through the Rails install.<br>
+<br>
+To get to this stage I did the following;<br>
+<br>
+<ul style=text-align:left>
+<li><span style="font-family:courier new,Courier,monospace">sudo pacman -S base-devel ruby sqlite3 nodejs</span></li>
+<li>Added <span style="font-family:courier new,Courier,monospace">/home/alastair/.gem/ruby/2.1.0/bin</span> to my path in .bashrc </li>
+<li><span style="font-family:courier new,Courier,monospace">gem install rails</span></li>
+<li><span style="font-family:courier new,Courier,monospace">gem install execjs </span></li>
+</ul>
+After a few minutes got the following successful install<br>
+<br>
+<div class=separator style=clear:both;text-align:center>
+<a href=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1tm8RGzy6qE1OkPDK9KenjY3ltDKGDgRrgOTTPNqCrHw1-47CqdgaQBuyZr_uL24ON5NFxP4YkNjm4AsVr931CPMR2G2morv8ybd58tJkC2U83DbKc7UMt2RW7M8A8X4LOtckwpT_0Bo/s1600/Manjaro+Rails2.png imageanchor=1 style=margin-left:1em;margin-right:1em><img border=0 src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1tm8RGzy6qE1OkPDK9KenjY3ltDKGDgRrgOTTPNqCrHw1-47CqdgaQBuyZr_uL24ON5NFxP4YkNjm4AsVr931CPMR2G2morv8ybd58tJkC2U83DbKc7UMt2RW7M8A8X4LOtckwpT_0Bo/s1600/Manjaro+Rails2.png height=184 width=320></a></div>
+<br>
+<br>
+<br>
+Now to dig out that Rails tutorial I was working through.<br>
+<br>
+<b>Update</b>,<br>
+Turns out can't start a rails server do it a missing JavaScript Runtime, bit more searching require.<br>
+<br>
+<b>Update2</b>,<br>
+Found the answer on the Arch Linux Wiki which worked updated the instructions above.<br>
+<ul style=text-align:left>
+<li><span style="font-family:courier new,Courier,monospace">sudo pacman -S nodejs</span><b>&nbsp;</b> </li>
+</ul>
+Success<br>
+<div class=separator style=clear:both;text-align:center>
+<a href=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC_jMQgtCeY4Fv0_6ghJMGdqbTSPv2MZQdmVgfiZ8sVh5ZEb9mLW1gaKCb0RcRxB-TRHc3iWEyMOjFX2p8QvR7xWGllo5RKRUiMLaKtYLb7nGTS72nUu6jci2iPJXa-VHYXCLK91OaGQc/s1600/Manjaro+Rails3.png imageanchor=1 style=margin-left:1em;margin-right:1em><img border=0 src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC_jMQgtCeY4Fv0_6ghJMGdqbTSPv2MZQdmVgfiZ8sVh5ZEb9mLW1gaKCb0RcRxB-TRHc3iWEyMOjFX2p8QvR7xWGllo5RKRUiMLaKtYLb7nGTS72nUu6jci2iPJXa-VHYXCLK91OaGQc/s1600/Manjaro+Rails3.png height=184 width=320></a></div>
+<br>
+<br>
+<a href=http://meekgonkey.blogspot.com/>Doodle's Geek Monkey</a> by <a href=http://twitter.com/alastair_hm>Alastair Montgomery</a></div>
+    </div>
+    <a href=/posts/installing-ruby-rails-on-manjaro-linux/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Articles</span>
+    
+      <time class="f6 db" datetime=2014-02-26T14:03:00Z>February 26, 2014</time>
+    
+    <h1 class="f3 near-black">
+      <a href=/posts/manjaro-linux-openbox/ class="link black dim">
+        Manjaro Linux Openbox
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <div dir=ltr style=text-align:left trbidi=on>
+<div style="font-size:.8em;line-height:1.6em;margin:0 0 10px;padding:0">
+<a href=http://www.flickr.com/photos/doodle_m/12793203984/ title="Manjaro Linux Openbox"><img alt="Manjaro Linux Openbox by Alastair Montgomery" src=https://farm4.staticflickr.com/3806/12793203984_9b37719f63.jpg></a><br>
+<span style=margin:0><a href=http://www.flickr.com/photos/doodle_m/12793203984/>Manjaro Linux Openbox</a>, a photo by <a href=http://www.flickr.com/photos/doodle_m/>Alastair Montgomery</a> on Flickr.</span></div>
+<i>Via Flickr:</i><br>Based on Arch Linux so seems pretty nippy at the moment in the VM.<br><br>Upload from Dropbox February 26, 2014 at 01:46PM</div>
+    </div>
+    <a href=/posts/manjaro-linux-openbox/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Articles</span>
+    
+      <time class="f6 db" datetime=2014-02-17T13:34:00Z>February 17, 2014</time>
+    
+    <h1 class="f3 near-black">
+      <a href=/posts/sabayon-1401/ class="link black dim">
+        Sabayon 14.01
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <div dir=ltr style=text-align:left trbidi=on>
+<div style="font-size:.8em;line-height:1.6em;margin:0 0 10px;padding:0">
+<a href=http://www.flickr.com/photos/doodle_m/12588553955/ title="Sabayon 14.01"><img alt="Sabayon 14.01 by Alastair Montgomery" src=http://farm8.staticflickr.com/7431/12588553955_8e5e5fd45d.jpg></a><br>
+<span style=margin:0><a href=http://www.flickr.com/photos/doodle_m/12588553955/>Sabayon 14.01</a>, a photo by <a href=http://www.flickr.com/photos/doodle_m/>Alastair Montgomery</a> on Flickr.</span></div>
+<i>Via Flickr:</i><br>Another day another Linux distro to try.<br><br>Giving the Gentoo based Linux a try on a VM.</div>
+    </div>
+    <a href=/posts/sabayon-1401/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Articles</span>
+    
+      <time class="f6 db" datetime=2014-02-17T11:31:00Z>February 17, 2014</time>
+    
+    <h1 class="f3 near-black">
+      <a href=/posts/android-x86/ class="link black dim">
+        Android-x86
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <div style="margin:0 0 10px;padding:0;font-size:.8em;line-height:1.6em"><a href=http://www.flickr.com/photos/doodle_m/12586108234/ title=Android-x86><img src=http://farm3.staticflickr.com/2852/12586108234_1296ccdf8d.jpg alt="Android-x86 by Alastair Montgomery"></a><br><span style=margin:0><a href=http://www.flickr.com/photos/doodle_m/12586108234/>Android-x86</a>, a photo by <a href=http://www.flickr.com/photos/doodle_m/>Alastair Montgomery</a> on Flickr.</span></div><p>Running Android-x86 on Virtual Box</p>
+    </div>
+    <a href=/posts/android-x86/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Articles</span>
+    
+      <time class="f6 db" datetime=2014-01-12T14:07:00Z>January 12, 2014</time>
+    
+    <h1 class="f3 near-black">
+      <a href=/posts/no-static-external-ip-on-raspberry-pi/ class="link black dim">
+        No static external IP on Raspberry Pi
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <div dir=ltr style=text-align:left trbidi=on>
+My Internet provider doesn't supply me with a static IP address with my broadband, so my Raspberry Pi external web address can wander if my router or connectigets reset. There are third party sites which will provide you with a static URL which follows your wandering IP address but its fun to do it yourself.<br>
+<br>
+To keep me updated on the current IP I wrote a Ruby script which I run via crontab to check and Tweet me is the IP address changes.<br>
+<br>
+<pre style="color:#333;font-family:Consolas,liberation mono,Courier,monospace;font-size:12px;line-height:18px"><div class=line id=LC1 style=padding-left:10px>
+<span class=c1 style=color:#998;font-style:italic>#!/usr/bin/ruby</span></div>
+<div class=line id=LC2 style=padding-left:10px>
+<span class=nb style=color:#0086b3>require</span> <span class=s1 style=color:#d14>'open-uri'</span></div>
+<div class=line id=LC3 style=padding-left:10px>
+<span class=nb style=color:#0086b3>require</span> <span class=s1 style=color:#d14>'twitter'</span></div>
+<div class=line id=LC4 style=padding-left:10px>
+</div>
+<div class=line id=LC5 style=padding-left:10px>
+<span class=n>twitDM</span> <span class=o style=font-weight:700>=</span> <span class=s2 style=color:#d14>"twitter_username"</span></div>
+<div class=line id=LC6 style=padding-left:10px>
+</div>
+<div class=line id=LC7 style=padding-left:10px>
+<span class=n>remote_ip</span> <span class=o style=font-weight:700>=</span> <span class=nb style=color:#0086b3>open</span><span class=p>(</span><span class=s1 style=color:#d14>'http://whatismyip.akamai.com'</span><span class=p>)</span><span class=o style=font-weight:700>.</span><span class=n>read</span></div>
+<div class=line id=LC8 style=padding-left:10px>
+<span class=n>old_ip</span> <span class=o style=font-weight:700>=</span> <span class=no style=color:teal>File</span><span class=o style=font-weight:700>.</span><span class=n>open</span><span class=p>(</span><span class=s1 style=color:#d14>'remote_ip.txt'</span><span class=p>,</span> <span class=s1 style=color:#d14>'r'</span><span class=p>)</span><span class=o style=font-weight:700>.</span><span class=n>read</span></div>
+<div class=line id=LC9 style=padding-left:10px>
+</div>
+<div class=line id=LC10 style=padding-left:10px>
+<span class=k style=font-weight:700>if</span> <span class=p>(</span><span class=n>remote_ip</span> <span class=o style=font-weight:700>!=</span> <span class=n>old_ip</span><span class=p>)</span> <span class=k style=font-weight:700>then</span></div>
+<div class=line id=LC11 style=padding-left:10px>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=no style=color:teal>File</span><span class=o style=font-weight:700>.</span><span class=n>open</span><span class=p>(</span><span class=s1 style=color:#d14>'remote_ip.txt'</span><span class=p>,</span> <span class=s2 style=color:#d14>"w"</span><span class=p>)</span> <span class=p>{</span> <span class=o style=font-weight:700>|</span><span class=n>file</span><span class=o style=font-weight:700>|</span>  <span class=n>file</span><span class=o style=font-weight:700>.</span><span class=n>write</span><span class=p>(</span><span class=n>remote_ip</span><span class=p>)}</span></div>
+<div class=line id=LC12 style=padding-left:10px>
+</div>
+<div class=line id=LC13 style=padding-left:10px>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=n>client</span> <span class=o style=font-weight:700>=</span> <span class=no style=color:teal>Twitter</span><span class=o style=font-weight:700>::</span><span class=no style=color:teal>REST</span><span class=o style=font-weight:700>::</span><span class=no style=color:teal>Client</span><span class=o style=font-weight:700>.</span><span class=n>new</span> <span class=k style=font-weight:700>do</span> <span class=o style=font-weight:700>|</span><span class=n>config</span><span class=o style=font-weight:700>|</span></div>
+<div class=line id=LC14 style=padding-left:10px>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=n>config</span><span class=o style=font-weight:700>.</span><span class=n>consumer_key</span>        <span class=o style=font-weight:700>=</span> <span class=s2 style=color:#d14>"xxxx"</span></div>
+<div class=line id=LC15 style=padding-left:10px>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=n>config</span><span class=o style=font-weight:700>.</span><span class=n>consumer_secret</span>     <span class=o style=font-weight:700>=</span> <span class=s2 style=color:#d14>"xxxx"</span></div>
+<div class=line id=LC16 style=padding-left:10px>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=n>config</span><span class=o style=font-weight:700>.</span><span class=n>access_token</span>        <span class=o style=font-weight:700>=</span> <span class=s2 style=color:#d14>"xxxx"</span></div>
+<div class=line id=LC17 style=padding-left:10px>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=n>config</span><span class=o style=font-weight:700>.</span><span class=n>access_token_secret</span> <span class=o style=font-weight:700>=</span> <span class=s2 style=color:#d14>"xxxx"</span></div>
+<div class=line id=LC18 style=padding-left:10px>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=k style=font-weight:700>end</span></div>
+<div class=line id=LC19 style=padding-left:10px>
+</div>
+<div class=line id=LC20 style=padding-left:10px>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=n>client</span><span class=o style=font-weight:700>.</span><span class=n>update</span><span class=p>(</span><span class=s2 style=color:#d14>"D </span><span class=si style=color:#d14>#{</span><span class=n>twitDM</span><span class=si style=color:#d14>}</span><span class=s2 style=color:#d14> My IP address is now </span><span class=si style=color:#d14>#{</span><span class=n>remote_ip</span><span class=si style=color:#d14>}</span><span class=s2 style=color:#d14>"</span><span class=p>)</span></div>
+<div class=line id=LC21 style=padding-left:10px>
+</div>
+<div class=line id=LC22 style=padding-left:10px>
+<span class=k style=font-weight:700>else</span></div>
+<div class=line id=LC23 style=padding-left:10px>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=nb style=color:#0086b3>puts</span> <span class=s2 style=color:#d14>"IP addresses match"</span></div>
+<div class=line id=LC24 style=padding-left:10px>
+<span class=k style=font-weight:700>end</span></div>
+</pre><br>You can clone the script at Github&nbsp;<a href=https://github.com/alastairhm/myip>https://github.com/alastairhm/myip</a>&nbsp;it uses a Ruby Twitter API library which can be found at&nbsp;<a href=https://github.com/sferik/twitter>https://github.com/sferik/twitter</a>&nbsp;to do the direct message with the new IP.<br>Full details about getting your Twitter API keys can be found at&nbsp;<a href=https://dev.twitter.com/>https://dev.twitter.com/</a><br><br><br><a href=http://meekgonkey.blogspot.com/>Doodle's Geek Monkey</a> by <a href=http://twitter.com/alastair_hm>Alastair Montgomery</a></div></div><a href=/posts/no-static-external-ip-on-raspberry-pi/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a></div></div></div></section><ul class="pagination pagination-default"><li class=page-item><a href=/categories/geek/ aria-label=First class=page-link role=button><span aria-hidden=true>&#171;&#171;</span></a></li><li class=page-item><a href=/categories/geek/page/3/ aria-label=Previous class=page-link role=button><span aria-hidden=true>&#171;</span></a></li><li class=page-item><a href=/categories/geek/page/2/ aria-label="Page 2" class=page-link role=button>2</a></li><li class=page-item><a href=/categories/geek/page/3/ aria-label="Page 3" class=page-link role=button>3</a></li><li class="page-item active"><a aria-current=page aria-label="Page 4" class=page-link role=button>4</a></li><li class=page-item><a href=/categories/geek/page/5/ aria-label="Page 5" class=page-link role=button>5</a></li><li class=page-item><a href=/categories/geek/page/6/ aria-label="Page 6" class=page-link role=button>6</a></li><li class=page-item><a href=/categories/geek/page/5/ aria-label=Next class=page-link role=button><span aria-hidden=true>&#187;</span></a></li><li class=page-item><a href=/categories/geek/page/24/ aria-label=Last class=page-link role=button><span aria-hidden=true>&#187;&#187;</span></a></li></ul></article></main><footer class="bg-black bottom-0 w-100 pa3" role=contentinfo><div class="flex justify-between"><a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href=https://blog.0x32.co.uk/>&copy; 0x32++ 2026</a><div><div class=ananke-socials><a href=https://bsky.app/profile/alastair-hm.bsky.social target=_blank rel=noopener class="ananke-social-link link-transition bluesky link dib z-999 pt3 pt0-l mr1" title="follow on Bluesky - Opens in a new window" aria-label="follow on Bluesky - Opens in a new window"><span class=icon><svg role="img" viewBox="0 0 24 24"><title>Bluesky</title><path d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037-.856 3.061-3.978 3.842-6.755 3.37 4.854.826 6.089 3.562 3.422 6.299-5.065 5.196-7.28-1.304-7.847-2.97-.104-.305-.152-.448-.153-.327.0-.121-.05.022-.153.327-.568 1.666-2.782 8.166-7.847 2.97-2.667-2.737-1.432-5.473 3.422-6.3-2.777.473-5.899-.308-6.755-3.369C.42 10.04.0 4.615.0 3.883.0.213 3.217 1.366 5.202 2.857"/></svg>
+</span></a><a href=https://www.instagram.com/alastair_hm/ target=_blank rel=noopener class="ananke-social-link link-transition instagram link dib z-999 pt3 pt0-l mr1" title="follow on Instagram - Opens in a new window" aria-label="follow on Instagram - Opens in a new window"><span class=icon><svg role="img" viewBox="0 0 24 24"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465s-.264-2.1487-.5633-2.9117c-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079s-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44.0 1018.39 4.144a1.44 1.44.0 00-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 114.008 3.9921A3.9996 3.9996.0 018 12.0077"/></svg>
+</span></a><a href=https://github.com/alastairhm/ target=_blank rel=noopener class="ananke-social-link link-transition github link dib z-999 pt3 pt0-l mr1" title="follow on GitHub - Opens in a new window" aria-label="follow on GitHub - Opens in a new window"><span class=icon><svg role="img" viewBox="0 0 24 24"><title>GitHub</title><path d="M12 .297c-6.63.0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577.0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93.0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176.0.0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22.0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22.0 1.606-.015 2.896-.015 3.286.0.315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+</span></a><a href=https://mastodon.social/@alastair_hm target=_blank rel=noopener class="ananke-social-link link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="follow on Mastodon - Opens in a new window" aria-label="follow on Mastodon - Opens in a new window"><span class=icon><svg role="img" viewBox="0 0 24 24"><title>Mastodon</title><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792.0 11.813.0h-.03c-3.98.0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057.0 00.023-.043v-1.809a.052.052.0 00-.02-.041.053.053.0 00-.046-.01 20.282 20.282.0 01-4.709.545c-2.73.0-3.463-1.284-3.674-1.818a5.593 5.593.0 01-.319-1.433.053.053.0 01.066-.054c1.517.363 3.072.546 4.632.546.376.0.75.0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23.0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112.0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311.0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13.0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg>
+</span></a><a href=https://blog.0x32.co.uk/index.xml target=_blank rel=noopener class="ananke-social-link link-transition rss link dib z-999 pt3 pt0-l mr1" title="follow on RSS - Opens in a new window" aria-label="follow on RSS - Opens in a new window"><span class=icon><svg role="img" viewBox="0 0 24 24"><title>RSS</title><path d="M19.199 24C19.199 13.467 10.533 4.8.0 4.8V0c13.165.0 24 10.835 24 24h-4.801zM3.291 17.415c1.814.0 3.293 1.479 3.293 3.295.0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526.0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727.0 15.909 7.184 15.909 15.91z"/></svg></span></a></div></div></div></footer></body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
